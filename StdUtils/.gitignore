@@ -1,0 +1,10 @@
+*.exe
+*.sdf
+*.suo
+/*.7z
+/*.zip
+/Contrib/StdUtils/ipch
+/Contrib/StdUtils/obj
+/Docs/StdUtils/StdUtils.html
+/Plugins/*
+/z_Final
