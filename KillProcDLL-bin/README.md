@@ -1,5 +1,5 @@
-# Inetc #
-## Inetc客户端插件，用于文件的下载和上传 ##
+# KillProcDLL #
+## KillProcDLL客户端插件，根据进程名结束指定进程 ##
 
 ## 默认使用方法 ##
     KillProcDLL::KillProc "process_name.exe"
