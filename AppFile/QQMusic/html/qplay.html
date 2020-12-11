@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+<title>Qplay - QQ音乐 - 听我想听的歌!</title>
+<style type="text/css">
+html,body{overflow:hidden;}
+html,body,div{margin:0;padding:0;}
+body{color:#949494;background-color:#fff;}
+.qplay_intro{width:920px;height:515px;overflow:hidden;margin:0 auto;position:absolute;top:50%;left:50%;margin:-257px -460px;}
+.qplay_slide{width:1700px;}
+.qplay_slide .item{float:left;width:920px;height:515px;position:relative;}
+.qplay_slide img{display:block;width:920px;height:515px;}
+.qplay_slide .item .btn_disconnect{display:block;width:173px;height:36px;text-indent:-9999em;overflow:hidden;position:absolute;left:303px;bottom:4px;background:url(about:blank);}
+.qplay_slide .item .btn_more{display:block;width:121px;height:36px;text-indent:-9999em;overflow:hidden;position:absolute;background:url(about:blank);}
+.qplay_slide .item_1 .btn_more{left:566px;top:267px;}
+.qplay_slide .item_1 .btn_disconnect{left:697px;top:267px;}
+.qplay_slide .item_2 .btn_more{left:415px;top:191px;}
+.qplay_slide .item_2 .btn_disconnect{left:547px;top:191px;}
+.circle_switch{position:absolute;right:8px;bottom:6px;z-index:11;}
+.circle_switch a{display:inline-block;*zoom:1;*display:inline;font:500 28px/22px tahoma,Arial,'\5b8b\4f53';color:#756766;letter-spacing:0;margin:0 4px 0 0;text-decoration:none;}
+.circle_switch .on{color:#16bc5c;}
+</style>
+</head>
+<body>
+	<div class="qplay_intro">
+        <div class="qplay_slide">
+        	<div class="item item_1" id="div1">
+        		<img src="qplay_1.jpg" />
+				<a href="http://y.qq.com/y/static/down/qplay.html" target="_blank" class="btn_more">了解更多</a>
+				<a href="javascript:;" id="disconnect2" class="btn_disconnect">断开Qplay连接</a>
+        	</div>
+        	<div class="item item_2" id="div2" style="display:none;">
+        		<img src="qplay_2.jpg" />
+				<a href="http://y.qq.com/y/static/down/qplay.html" target="_blank" class="btn_more">了解更多</a>
+				<a href="javascript:;" id="disconnect" class="btn_disconnect">断开Qplay连接</a>
+        	</div>
+        </div>
+		<div class="circle_switch">
+            <a href="javascript:;" id='tab1' class="on">•</a><a href="javascript:;" id="tab2">•</a>
+        </div>
+	</div>
+<script>
+var disconnectXML =  [
+			'<command-lable-xwl78-qq-music>',
+				'<cmd value="1074" verson="800">',
+					'<subcmd value="TurnOffQPlayR"></subcmd>',
+				'</cmd>',
+			'</command-lable-xwl78-qq-music>'].join('');
+			
+document.getElementById('disconnect').onclick = function(){
+	try{
+		return window.external.ClientInterfaceForWeb(disconnectXML,0);
+	}catch(e){
+		return '';
+	}
+}
+document.getElementById('disconnect2').onclick = function(){
+	try{
+		return window.external.ClientInterfaceForWeb(disconnectXML,0);
+	}catch(e){
+		return '';
+	}
+}
+document.getElementById('tab1').onclick = function(){
+	document.getElementById('div1').style.display = '';
+	document.getElementById('div2').style.display = 'none';
+	document.getElementById('tab1').className='on';
+	document.getElementById('tab2').className='';
+	
+}
+document.getElementById('tab2').onclick = function(){
+	document.getElementById('div1').style.display = 'none';
+	document.getElementById('div2').style.display = '';
+	document.getElementById('tab1').className='';
+	document.getElementById('tab2').className='on';
+}
+
+</script>
+</body>
+</html>

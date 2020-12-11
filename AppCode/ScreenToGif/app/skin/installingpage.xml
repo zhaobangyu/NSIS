@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+<!-- 进度 -->
+  <VerticalLayout >
+       <!-- 上半部分背景 -->
+   	<VerticalLayout width="592" height="282" roundcorner="5,5" bkcolor="#FF262939" bkimage="file='bkimage.png' corner='0,0,0,0'" >
+
+	</VerticalLayout>
+	<VerticalLayout height="160" bkcolor="#FFFFFFFF" >   
+		<Control height="59" />
+		<!-- 文字描述 -->
+		<HorizontalLayout height="20" padding="28,0,0,0">
+			<!-- 提示 -->
+			<Label 
+				font="0" 
+				name="progress_tip" 
+				width="400" 
+				text=""
+				textcolor="#ff555555" />
+			<Control />
+			<!-- 进度 -->
+			<Label 
+				font="0" 
+				name="progress_pos"
+				width="60" 
+				text=""
+				textalign="right" 
+				textcolor="#ff555555" />
+		</HorizontalLayout>
+		<Control height="5" />
+		<!-- 进度条 -->
+		<Slider 
+			name="slrProgress"
+			padding="28,0,0,0" 
+			height="10" 
+			width="539"
+			mouse="false" 
+			foreimage="form\fg.png"
+			bkimage="form\bg.png" 
+			thumbsize="0,0" 
+			bkcolor="#FFD8D8D8"/>
+		<Control />
+	</VerticalLayout>	
+	</VerticalLayout >
+</Windows>

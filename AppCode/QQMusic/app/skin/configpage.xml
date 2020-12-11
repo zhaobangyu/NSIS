@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows showshadow="true" shadowimage="bk_shadow.png" shadowsize="14" shadowcorner="14,14,14,14">
+    <!-- 安装目录 -->
+    <VerticalLayout>
+    <!-- 上半部分背景 -->
+   	<VerticalLayout width="592" height="282" roundcorner="5,5" bkcolor="#FF262939">
+		<!-- logo -->
+		<VerticalLayout 
+			padding="0,0,0,0" 
+			bkimage="file='bkimage\bk1.png' corner='0,0,0,0'" 
+			maxwidth="592" 
+			maxheight="282"/>
+	</VerticalLayout>
+	<VerticalLayout bkcolor="#FFFFFFFF">
+		<!-- 安装面板 -->
+		<VerticalLayout name="defalutconfiginfo" visible="true">
+			<!-- 快速安装 -->
+			<Button 
+				font="8" 
+				name="btnMainInstall" 
+				padding="196,41,0,0" 
+				width="200" 
+				height="48"
+				textcolor="0xffffffff" 
+				disabledtextcolor="0xffffffff" 
+				normalimage="button\ksaz_normal.png" 
+				hotimage="button\ksaz_hovered.png" 
+				pushedimage="button\ksaz_pressed.png" 
+				disabledimage="button\ksaz_disable.png"
+				margin="0,10,0,0" 
+				borderround="2,2,2,2"
+				text="" />
+
+			<!-- 选项，自定安装 -->
+			<HorizontalLayout height="72" padding="0,0,0,0">
+				<!-- 服务条款协议选择框  -->
+				<CheckBox 
+					font="7"
+					padding="28,30,0,0"
+					name="chkAgree" 
+					width="96" 
+					heigh="20" 
+					text="同意QQ音乐的" 
+					textcolor="#FF333333" 
+					selected="true" 
+					valign="top" 
+					align="left" 
+					textpadding="22,0,0,0" 
+					normalimage="file='public/CheckBox/check_no.png' dest='0,2,16,18'" 
+					normalhotimage="file='public/CheckBox/check_no.png' dest='0,2,16,18'" 
+					selectedimage="file='public/CheckBox/check_yes.png' dest='0,2,16,18'" 
+					selectedhotimage="file='public/CheckBox/check_yes.png' dest='0,2,16,18'"/>
+
+				<!-- 服务协议跳转按钮 -->
+				<Button 
+					font="7" 
+					padding="2,30,0,0"
+					name="btnAgreement" 
+					width="100" 
+					Height="20"
+					align="top" 
+					text="用户许可协议" 
+					textpadding="0,0,0,0" 
+					textcolor="0xff16bc5c" 
+					align="left" />
+
+				<!-- 自定义安装按钮 -->
+				<Button 
+					name="btnShowMore" 
+					inset="0,5,5,0" 
+					padding="257,32,0,0"  
+					width="98" 
+					height="17" 
+					normalimage="button\zdyaz_normal.png" 
+					hotimage="button\zdyaz_hovered.png"
+					pushedimage="button\zdyaz_pressed.png" />
+				<Control />
+			</HorizontalLayout>	 
+		</VerticalLayout>
+		<!-- 更多安装配置 -->
+		<VerticalLayout name="moreconfiginfo" visible="false" height="160">
+			<HorizontalLayout Height="41" maxheight="41" padding="0,0,0,0">
+				<Label 
+					padding="28,0,0,0" 
+					font="5"
+					width="64"
+					textcolor="#FF333333" 
+					text="安装位置："/>
+				<Control width="5" />
+				<!--安装目录所在的磁盘不存在，请重新输入-->
+				<Label
+					padding="0,0,0,0" 
+					font="5"
+					text=""
+					name="local_space" 
+					width="400" 
+					textcolor="#FFff0000"/> 
+			</HorizontalLayout>
+			
+			<!-- 安装路径 -->
+			<HorizontalLayout height="27" padding="0,0,0,0">
+				<!-- 输入框 -->
+				<RichEdit
+					name="editDir" 
+					text="" 
+					width="482" 
+					height="27"
+					padding="28,0,0,0"
+					textcolor="0xFF000000" 
+					inset="5,5,2,2" 
+					bkimage="public\edit\edit0.png" 
+					autohscroll="false" 
+					bordervisible="true"  
+					bordersize="1" 
+					bordercolor="#FFb6b6b6" 
+					wantreturn="false" 
+					wantctrlreturn="false" 
+					bkcolor="#FF00000"
+					multiline="false"/>
+
+				<!-- 选择按钮 -->
+				<Button 
+					name="btnSelectDir"
+					padding="-1,0,0,0"
+					width="58" 
+					height="27"
+					normalimage="button\liulan_normal.png" 
+					hotimage="button\liulan_hovered.png" 
+					pushedimage="button\liulan_pressed.png" 
+					disabledimage="button\liulan_pressed.png"/>    
+			</HorizontalLayout>
+			
+			<!-- 选项区域 -->
+			<HorizontalLayout name="chkboxLayout" Height="44">
+				<CheckBox 
+					name="chkbox_desktop_ico"
+					font="7"
+					float="false"
+					padding="28,15,0,0"
+					width="100"
+					text="创建桌面图标" 
+					textcolor="#FF9a9a9a" 
+					selected="true" 
+					valign="top" 
+					align="left" 
+					textpadding="22,0,0,0" 
+					normalimage="file='public/CheckBox/check_no.png' dest='0,2,16,18'" 
+					normalhotimage="file='public/CheckBox/check_no.png' dest='0,2,16,18'" 
+					selectedimage="file='public/CheckBox/check_yes.png' dest='0,2,16,18'" 
+					selectedhotimage="file='public/CheckBox/check_yes.png' dest='0,2,16,18'"/>
+				<Control width="23" />
+				<CheckBox 
+					name="chkbox_quick_start"
+					font="7"
+					float="false"
+					padding="0,15,0,0"
+					width="130"
+					text="添加到快速启动栏" 
+					selected="false" 
+					textcolor="#FF9a9a9a" 
+					valign="top" 
+					align="left" 
+					visible="true"
+					textpadding="22,0,0,0" 
+					normalimage="file='public/CheckBox/check_no.png' dest='0,2,16,18'" 
+					normalhotimage="file='public/CheckBox/check_no.png' dest='0,2,16,18'" 
+					selectedimage="file='public/CheckBox/check_yes.png' dest='0,2,16,18'" 
+					selectedhotimage="file='public/CheckBox/check_yes.png' dest='0,2,16,18'"/>
+				<Control width="23" />
+				<CheckBox 
+					name="chkbox_boot_start"
+					font="7"
+					float="false"
+					padding="0,15,0,0"
+					width="140"
+					text="设置默认音乐播放器" 
+					selected="true" 
+					textcolor="#FF9a9a9a" 
+					valign="top" 
+					align="left" 
+					visible="true"
+					textpadding="22,0,0,0" 
+					normalimage="file='public/CheckBox/check_no.png' dest='0,2,16,18'" 
+					normalhotimage="file='public/CheckBox/check_no.png' dest='0,2,16,18'" 
+					selectedimage="file='public/CheckBox/check_yes.png' dest='0,2,16,18'" 
+					selectedhotimage="file='public/CheckBox/check_yes.png' dest='0,2,16,18'"/>
+				<Control width="23" />
+				<CheckBox 
+					name="chkbox_boot_start"
+					font="7"
+					float="false"
+					padding="0,15,0,0"
+					width="100"
+					text="开启自动启动" 
+					selected="true" 
+					textcolor="#FF9a9a9a" 
+					valign="top" 
+					align="left" 
+					visible="true"
+					textpadding="22,0,0,0" 
+					normalimage="file='public/CheckBox/check_no.png' dest='0,2,16,18'" 
+					normalhotimage="file='public/CheckBox/check_no.png' dest='0,2,16,18'" 
+					selectedimage="file='public/CheckBox/check_yes.png' dest='0,2,16,18'" 
+					selectedhotimage="file='public/CheckBox/check_yes.png' dest='0,2,16,18'"/>
+			</HorizontalLayout>
+			
+			<!-- 按钮区域 -->
+			<HorizontalLayout Height="48">
+				<!-- 返回按钮 -->    
+				<Button 
+					name="btnHideMore"
+					padding="356,0,0,0"
+					font="5"
+					text=""
+					width="94" 
+					height="36"
+					valign="center" 
+					textcolor="#FFffffff"
+					normalimage="button\fanhui_normal.png" 
+					hotimage="button\fanhui_hovered.png" 
+					pushedimage="button\fanhui_pressed.png" 
+					disabledimage="button\fanhui_disable.png"
+					borderround="2,2,2,2"/>    
+				<!-- 立即安装 -->
+				<Button 
+					name="btnMoreInstall"
+					padding="20,0,0,0"
+					font="5"
+					text=""
+					width="94" 
+					height="36"
+					valign="center" 
+					textcolor="#FFffffff"
+					normalimage="button\ljaz_normal.png" 
+					hotimage="button\ljaz_hovered.png" 
+					pushedimage="button\ljaz_pressed.png" 
+					disabledimage="button\ljaz_disable.png"
+					borderround="2,2,2,2"/>    
+			</HorizontalLayout>
+		</VerticalLayout>
+	</VerticalLayout>
+	<Include source="licensepage.xml"/>
+   </VerticalLayout>
+</Windows>

@@ -1,0 +1,6 @@
+简体包打包步骤
+1、打开AppCode\您的项目目录\app\setup.nsi 脚本
+2、修改 APP_FILE_DIR 变量(对应打包应用的文件目录，改成你电脑上对应的目录)
+3、修改 APP_FILE_COUNT 变量（应用程序打包的文件数量）
+4、执行build-您的项目-nozip.bat脚本即可
+5、打包后的文件在Output目录下

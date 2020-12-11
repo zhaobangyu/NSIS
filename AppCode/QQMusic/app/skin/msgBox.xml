@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window 
+size="402,305" 
+sizebox="0,0,0,0" 
+caption="0,0,0,305" 
+showshadow="true" shadowimage="bk_shadow.png" shadowsize="14" shadowcorner="14,14,14,14">
+  <Font id="0" name="微软雅黑" size="13" bold="false" default="true" shared="true" />
+	<Font id="1" name="微软雅黑" size="14" bold="true" shared="true" />
+	<Font id="2" name="微软雅黑" size="16" bold="true" shared="true" />
+	<Font id="3" name="微软雅黑" size="18" bold="true" shared="true" />
+	<Font id="4" name="微软雅黑" size="50" bold="true" shared="true" />
+  <VerticalLayout width="402" height="305" inset="1,1,1,1" bordersize="1" bkcolor="#FFf9fafa">
+  	<!-- 窗口顶部 -->
+		<VerticalLayout height="40">
+      <HorizontalLayout height="39">
+				<!-- 标题 -->
+				<Label
+					name="lblTitle"
+					width="50"
+					textpadding="10,0,0,0" 
+					text="提示" 
+					textcolor="#FF9AABC1" />
+				<!-- 关闭按钮 -->
+        <Button 
+					float="false"
+				  padding="324,11,0,0"
+					name="btnClose" 
+					width="14" 
+					height="13" 
+					normalimage="file='close.png'" 
+					hotimage="file='close.png'" 
+					pushedimage="file='close.png'" />
+      </HorizontalLayout>  
+			<HorizontalLayout height="1" bkcolor="#FFeaebec"/>
+  	</VerticalLayout>
+
+		<!-- 标题+图标 -->
+  	<HorizontalLayout height="180">
+			<Container width="40"/>
+  		<VerticalLayout width="40" >
+					<Container  />
+						<Label bkimage="msgWarning.png"  height="40"  />
+					<Container />
+			</VerticalLayout>
+
+			<Container width="20"/>
+			<Text
+					name="lblMsg"
+					font="1"
+					padding="0,70,0,0"
+					minheight="180"
+					maxheight="180"
+					minwidth="260"
+					maxwidth="260"
+					align="center"
+					textcolor="#FF9AABC1"/>
+  	</HorizontalLayout>
+
+		<!-- 按钮区域 -->
+    <VerticalLayout height="40">
+			<HorizontalLayout>
+				<!-- 确定按钮 -->
+				<Button 
+					name="btnOK"
+					float="true"
+					pos="50,0,150,40"
+					font="1"
+					text="确 定"  
+					align="center"
+					valign="center" 
+					textcolor="#FFFFFFFF" 
+					borderround="2,2,2,2"
+					normalimage="form\btn_installation_normal.png" 
+					hotimage="form\btn_installation_hovered.png" 
+					pushedimage="form\btn_installation_pressed.png"/>
+				<Container width="10"/>
+				<!-- 取消按钮 -->
+				<Button 
+					name="btnCancel" 
+					float="true"
+					pos="250,0,350,40"
+					font="1" 
+					text="取 消" 
+					align="center"
+					valign="center" 
+					textcolor="#FFFFFFFF" 
+					borderround="2,2,2,2"
+					normalimage="form\btn_installation_normal.png" 
+					hotimage="form\btn_installation_hovered.png" 
+					pushedimage="form\btn_installation_pressed.png"/>
+			</HorizontalLayout>
+    </VerticalLayout>
+  </VerticalLayout>
+</Window>

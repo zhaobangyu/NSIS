@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+<!-- 完成 -->
+  <VerticalLayout >
+     <VerticalLayout width="552" height="333" roundcorner="5,5" bkimage="file='bkimage\uninstall_finish.bmp' corner='0,0,0,0'" >
+		<!-- 完成按钮 -->
+		<Button 
+			name="btnUninstalled"
+			font="6"
+			padding="441,275,0,0" 
+			text=""
+			width="90" 
+			height="35"
+			valign="center" 
+			textcolor="#FFffffff"
+			normalimage="file='button\uninstall_btn_finish.bmp' source='0,0,90,35' dest='0,0,90,35'" 
+			hotimage="file='button\uninstall_btn_finish.bmp' source='0,35,90,70' dest='0,0,90,35'" 
+			pushedimage="file='button\uninstall_btn_finish.bmp' source='0,70,90,105' dest='0,0,90,35'"/>     
+	</VerticalLayout>
+ </VerticalLayout>
+</Windows>

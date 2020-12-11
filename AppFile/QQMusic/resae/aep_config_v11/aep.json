@@ -1,0 +1,634 @@
+{
+	"version": 10001,
+	"link": {
+		"iconDir": "https://dldir1.qq.com/music/clntupate/ss2/audioeffectIco/",
+		"listIconDir": "https://dldir1.qq.com/music/clntupate/ss2/audioeffectIco/listIcon/",
+		"deatilIconDir": "https://dldir1.qq.com/music/clntupate/ss2/audioeffectIco/detailIcon/",
+		"shareIconDir": "https://dldir1.qq.com/music/clntupate/ss2/audioeffectIco/ShareIcon/",
+		"tagImageDir": "https://dldir1.qq.com/music/clntupate/ss2/audioeffectIco/tagImage/",
+		"shareTagImageDir": "https://dldir1.qq.com/music/clntupate/ss2/audioeffectIco/shareTagImage/",
+		"irDir": "https://dldir1.qq.com/music/clntupate/ss2/irs/"
+	},
+	"tag": ["重低音", "环绕", "高保真", "曲风", "旋律", "耳机", "人声", "设备模拟", "环境模拟"],
+	"data": [{
+		"id": 996,
+		"name": "智能音效",
+		"description": "智能均衡各项参数，动态音量调节，配合人声增强和声场扩展，根据不同的曲风、流派、设备自动适配最佳效果",
+		"shareDesc": "智能均衡各项参数，适配最佳效果",
+		"filename": "996-智能音效.aep",
+		"backImage": "tagSmarkBack.png",
+		"flag": ["show", "top", "hot"],
+		"icon": "RecommendIcon996.png"
+	},
+	{
+		"id": 809,
+		"name": "超嗨DJ",
+		"description": "将歌曲智能转化为DJ电音，为你提供多种建议搭配舞姿的电音风格，还可以开启闪光灯与手机震动",
+		"shareDesc": "每一首歌曲皆可蹦迪",
+		"filename": "809-超嗨DJ.aep",
+		"tag": ["曲风"],
+		"backImage": "tagSmarkDJBack.png",
+		"flag": ["show", "top", "hot"],
+		"icon": "RecommendIcon809.png"
+	},
+	{
+		"id": 808,
+		"name": "助眠节拍",
+		"description": "在音乐中添加助眠波，带动脑波快速进入睡眠状态，同时开启环境音效果更佳",
+		"shareDesc": "这一晚，睡得更香",
+		"filename": "808-睡眠音效.aep",
+		"tag": ["耳机", "环境模拟"],
+		"backImage": "tagHeadphoneBack.png",
+		"icon": "RecommendIcon808.png",
+		"flag": ["show", "new", "top", "hot"],	
+		"PC": {
+			"flag": ["show", "new"]
+		},
+		"downloads": {
+			"presets" : [{
+				"id" : 1,
+				"enName" : "grovesound",
+				"cnName" : "林语",
+				"url" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/grovesound.zip",
+				"size" : 411700,
+				"md5" : "4645189dc5dbbe2082a3d8098fead837",
+				"imgUrl" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Normal/grovesound.png",
+				"imgUrlSelected" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Selected/grovesound.png",
+				"color" : "0x22D59C"
+			},
+			{
+				"id" : 2,
+				"enName" : "night",
+				"cnName" : "夜晚",
+				"url" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/night.zip",
+				"size" : 347979,
+				"md5" : "c5fa8016920d2b21f08d947be62bdf1f",
+				"imgUrl" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Normal/night.png",
+				"imgUrlSelected" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Selected/night.png",
+				"color" : "0xFFF46E"
+			},
+			{
+				"id" : 3,
+				"enName" : "stream",
+				"cnName" : "溪流",
+				"url" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/stream.zip",
+				"size" : 380715,
+				"md5" : "8e69062dbf04d85001857a9d50682f27",
+				"imgUrl" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Normal/stream.png",
+				"imgUrlSelected" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Selected/stream.png",
+				"color" : "0x22CCD5"
+			},
+			{
+				"id" : 4,
+				"enName" : "drop",
+				"cnName" : "水滴",
+				"url" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/drop.zip",
+				"size" : 249317,
+				"md5" : "fb1ec1e9bbd419e4ad7be4edfcb95405",
+				"imgUrl" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Normal/drop.png",
+				"imgUrlSelected" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Selected/drop.png",
+				"color" : "0xA5FAFF"
+			},
+			{
+				"id" : 5,
+				"enName" : "oceanwaves",
+				"cnName" : "海浪",
+				"url" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/oceanwaves.zip",
+				"size" : 371898,
+				"md5" : "d5e6a928511c71305416b42393180bf4",
+				"imgUrl" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Normal/oceanwaves.png",
+				"imgUrlSelected" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Selected/oceanwaves.png",
+				"color" : "0x2297D5"
+			},
+			{
+				"id" : 6,
+				"enName" : "seagull",
+				"cnName" : "海鸥",
+				"url" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/seagull.zip",
+				"size" : 276241,
+				"md5" : "3fd74ad81fc90e7b50d347e2bb969987",
+				"imgUrl" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Normal/seagull.png",
+				"imgUrlSelected" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Selected/seagull.png",
+				"color" : "0x2B6CDE"
+			},
+			{
+				"id" : 7,
+				"enName" : "insect",
+				"cnName" : "虫鸣",
+				"url" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/insect.zip",
+				"size" : 270343,
+				"md5" : "9b06943107599eaa6de513857e9532e2",
+				"imgUrl" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Normal/insect.png",
+				"imgUrlSelected" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Selected/insect.png",
+				"color" : "0xFFA162"
+			},		
+			{
+				"id" : 8,
+				"enName" : "wind",
+				"cnName" : "风声",
+				"url" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/wind.zip",
+				"size" : 204714,
+				"md5" : "34f1c6dccc5fd2819750153ab3abcdf9",
+				"imgUrl" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Normal/wind.png",
+				"imgUrlSelected" : "http://dldir1.qq.com/music/clntupate/ss2/SleepEffect/Picture/Selected/wind.png",
+				"color" : "0x9A98DD"
+			}]
+		}
+	},
+	{
+		"id": 500,
+		"name": "全景环绕",
+		"description": "独创ATF增强算法，辅以立体声扩展技术，消除头中效应，享受环绕于耳畔的空间包裹感",
+		"shareDesc": "享受环绕于耳畔的空间包裹感",
+		"filename": "500-全景环绕.aep",
+		"tag": ["环绕", "耳机"],
+		"backImage": "tagSurroundBack.png",
+		"flag": ["show", "top", "hot"],
+		"icon": "RecommendIcon500.png"
+	},
+	{
+		"id": 807,
+		"name": "5.1环绕",
+		"description": "基于HRTF声场重建技术，拓宽最佳听音位置，获得私人音乐厅的环绕声体验，您还可以通过调整音量和角度打造最佳听音体验，建议佩戴耳机使用",
+		"shareDesc": "私人音乐厅的环绕声体验",
+		"filename": "807-5.1立体环绕声.aep",
+		"tag": ["环绕", "耳机"],
+		"backImage": "tagSurroundBack.png",
+		"flag": ["show", "top", "hot", "new", "edit"],
+		"icon": "RecommendIcon807.png"
+	},
+  {
+		"id": 501,
+		"name": "超重低音",
+		"description": "先进的低频增强技术，配合科学滤波，带来凝实有力，弹性十足的震撼和共鸣，您还可以调整低频强度和下潜区域来打造最适合自己的听音体验",
+		"shareDesc": "弹性十足的震撼和共鸣",
+		"filename": "501-超重低音.aep",
+		"tag": ["重低音"],
+		"backImage": "tagBassBack.png",
+		"flag": ["show", "top", "hot", "edit"],
+		"icon": "RecommendIcon501.png"
+	},
+	{
+		"id": 502,
+		"name": "清澈人声",
+		"description": "先进音频频谱分析增强技术，搭配智能防破音，消除沉闷，感受清澈人声的层次感和穿透力",
+		"shareDesc": "人声的层次感和穿透力",
+		"filename": "502-清澈人声.aep",
+		"tag": ["人声"],
+		"backImage": "tagVocalBack.png",
+		"flag": ["show", "top", "hot"],
+		"icon": "RecommendIcon502.png"
+	},
+	{
+		"id": 504,
+		"name": "现场律动",
+		"description": "领先虚拟音响技术，历经近百小时的调试，体验前置鲜活声场带来的极致临场感",
+		"shareDesc": "前置鲜活声场的极致临场感",
+		"filename": "504-现场律动.aep",
+		"tag": ["环境模拟", "高保真"],
+		"backImage": "tagAmbienceBack.png",
+		"irs": {
+			"742156792c2f7c863b9d5cec1cd0622546a1f877.enc": 1570744
+		},
+		"flag": ["show", "top", "hot"],
+		"icon": "RecommendIcon504.png"
+	},
+	{
+		"id": 506,
+		"name": "开阔宽音",
+		"description": "通过立体声拓展技术，配合频谱增强，体验更宽的声场，更广的音域",
+		"shareDesc": "更宽的声场，更广的音域",
+		"filename": "506-开阔宽音.aep",
+		"tag": ["旋律"],
+		"backImage": "tagMelodyBack.png",
+		"flag": ["show"],
+		"icon": "RecommendIcon506.png"
+	},
+	{
+		"id": 62,
+		"name": "外放环绕",
+		"description": "采用虚拟声技术，针对立体声扬声器布置，打造基于外放的超宽环绕效果",
+		"shareDesc": "带来更逼真的环绕效果",
+		"filename": "062-外放环绕.aep",
+		"tag": ["环绕"],
+		"backImage": "tagAmbienceBack.png",
+		"flag": ["show", "top"],
+		"icon": "RecommendIcon62.png"
+	},
+	{
+		"id": 20,
+		"name": "中国风",
+		"description": "精彩绝伦的中国风，乐器和人声清晰交融，通过精准的频谱增强技术，更适合古乐器的效果，带来舒适的听歌体验",
+		"shareDesc": "传统乐器与人声的相互交融",
+		"filename": "020-中国风.aep",
+		"tag": ["曲风"],
+		"backImage": "tagMusicGenreBack.png",
+		"flag": ["show", "new"],
+		"icon": "RecommendIcon20.png",
+		"PC": {
+			"flag": ["show", "top", "new"]
+		}
+	},
+	{
+		"id": 4,
+		"name": "黑胶",
+		"description": "经典的数字黑胶唱机模拟技术，搭配智能防破音技术，声音更加温暖圆润",
+		"shareDesc": "听黑胶唱机，回望黄金时代",
+		"filename": "004-黑胶.aep",
+		"tag": ["设备模拟"],
+		"backImage": "tagDeviceBack.png",
+		"irs": {
+			"679a81d912ae4cb5c9d208fd03061aa4b4a622fa.enc": 430316,
+			"de36ef18f951b510b071f0c1b696327eeccfc5f7.enc": 996244
+		},
+		"flag": ["show"],
+		"icon": "RecommendIcon4.png"
+	},
+	{
+		"id": 999,
+		"name": "编辑音效",
+		"description": "正在编辑的音效",
+		"filename": "999-编辑音效.aep",
+		"PC": {
+			"flag": ["debug", "edit"]
+		}
+	},
+	{
+		"id": 19,
+		"name": "摇滚",
+		"description": "精准的频谱增强技术，独家打造的参数设置，针对摇滚乐专心调制，给您极致的现场感受",
+		"shareDesc": "饱含激情的音乐节奏",
+		"filename": "019-摇滚.aep",
+		"tag": ["曲风"],
+		"backImage": "tagMusicGenreBack.png",
+		"flag": ["show", "new"],
+		"icon": "RecommendIcon19.png"
+	},
+	{
+		"id": 503,
+		"name": "温暖轻柔",
+		"description": "精准的频谱修复技术，配合科学滤波强化旋律，享受更宽广的声场和更温暖的人声",
+		"shareDesc": "更宽广的声场和更温暖的人声",
+		"filename": "503-温暖轻柔.aep",
+		"tag": ["旋律"],
+		"backImage": "tagMelodyBack.png",
+		"flag": ["show", "top"],
+		"icon": "RecommendIcon503.png",
+		"PC": {
+			"flag": ["show"]
+		}
+	},
+	{
+		"id": 505,
+		"name": "华丽复古",
+		"description": "领略经典复古的情调，感受如同在歌剧院般的经典效果",
+		"shareDesc": "领略歌剧般经典复古的情调",
+		"filename": "505-华丽复古.aep",
+		"tag": ["旋律"],
+		"backImage": "tagMelodyBack.png",
+		"flag": ["show", "top"],
+		"icon": "RecommendIcon505.png",
+		"PC": {
+			"flag": ["show"]
+		}
+	},
+	{
+		"id": 14,
+		"name": "留声机",
+		"description": "逼真的设备模拟，配合科学滤波、人声处理，找回旧时代留声机的感觉",
+		"shareDesc": "留住声音的每一刻",
+		"filename": "014-留声机.aep",
+		"tag": ["设备模拟"],
+		"backImage": "tagDeviceBack.png",
+		"irs": {
+			"679a81d912ae4cb5c9d208fd03061aa4b4a622fa.enc": 430316,
+			"de36ef18f951b510b071f0c1b696327eeccfc5f7.enc": 996244
+		},
+		"flag": ["show"],
+		"icon": "RecommendIcon14.png"
+	},
+	{
+		"id": 15,
+		"name": "清澈旋律",
+		"description": "通过频谱分析技术提取伴奏，配合脉冲处理，感受灵动的旋律、更轻快舒缓的节奏体验",
+		"shareDesc": "灵动的旋律，轻快舒缓的节奏",
+		"filename": "015-清澈旋律.aep",
+		"tag": ["旋律"],
+		"backImage": "tagMelodyBack.png",
+		"irs": {
+			"f11a9f4cf5aacc0ee807a14427ac63cd65841767.enc": 131152
+		},
+		"flag": ["show"],
+		"icon": "RecommendIcon15.png"
+	},
+	{
+		"id": 9,
+		"name": "民谣",
+		"description": "分析民谣风格旋律，采用科学滤波，配合脉冲处理，展现人声中的更多细节",
+		"shareDesc": "民谣故事用心体现",
+		"filename": "009-民谣.aep",
+		"tag": ["曲风", "人声"],
+		"backImage": "tagMusicGenreBack.png",
+		"irs": {
+			"43e714f5c19994239908b83b3c494225079b7605.enc": 600
+		},
+		"flag": ["show"],
+		"icon": "RecommendIcon9.png"
+	},
+	{
+		"id": 16,
+		"name": "3D音效",
+		"description": "精准的调制，360度旋转，声音动起来更好玩",
+		"shareDesc": "声音，动起来更好玩",
+		"filename": "016-3D音效.aep",
+		"tag": ["耳机", "环绕"],
+		"backImage": "tagSurroundBack.png",
+		"flag": ["show"],
+		"icon": "RecommendIcon16.png"
+	},
+	{
+		"id": 13,
+		"name": "超高保真",
+		"description": "超高保真技术，还原声音最真实的细节，低频适中，中高音醇厚，极致Hifi体验",
+		"shareDesc": "还原声音最真实的细节",
+		"filename": "013-超高保真.aep",
+		"tag": ["高保真"],
+		"backImage": "tagFidelityBack.png",
+		"irs": {
+			"d8d31861ef720e7ebe5d30fad4ba2dea68bbee41.enc": 4184
+		},
+		"flag": ["show"],
+		"icon": "RecommendIcon13.png"
+	},
+	{
+		"id": 17,
+		"name": "震撼低音",
+		"description": " 采用高强度低音增强技术，带来与众不同的震撼感同时尽力保留了中高频的原汁原味",
+		"shareDesc": "与众不同的震撼感",
+		"filename": "017-震撼低音.aep",
+		"tag": ["重低音"],
+		"backImage": "tagBassBack.png",
+		"irs": {
+			"c2e6f77802083d99658e46126b64fd0eeb2a12f2.enc": 32856
+		},
+		"flag": ["show"],
+		"icon": "RecommendIcon17.png"
+	},
+	{
+		"id": 18,
+		"name": "极重低音",
+		"description": "超高的低频下潜深度，声音澎湃有力不沉闷，人声醇厚不失真",
+		"shareDesc": "澎湃有力不沉闷，人声醇厚不失真",
+		"filename": "018-极重低音.aep",
+		"tag": ["重低音"],
+		"backImage": "tagBassBack.png",
+		"irs": {
+			"fae6b7a7ebcd6c4bfda2ff6807f0a5ca71048be0.enc": 12824
+		},
+		"flag": ["show"],
+		"icon": "RecommendIcon18.png"
+	},
+	{
+		"id": 12,
+		"name": "复合低音",
+		"description": "超高的低频下潜深度，高强度低音增强，多种低音设置混合，感受不一样的低音体验",
+		"shareDesc": "超高低频下潜，复合低音增强",
+		"filename": "012-复合低音.aep",
+		"tag": ["重低音"],
+		"backImage": "tagBassBack.png",
+		"irs": {
+			"b7c9156c947c4af96e2edde9abf58b3a1a29e932.enc": 8236,
+			"d8d31861ef720e7ebe5d30fad4ba2dea68bbee41.enc": 4184
+		},
+		"flag": ["show"],
+		"icon": "RecommendIcon12.png"
+	},
+	{
+		"id": 10,
+		"name": "流动低音",
+		"description": "采取动态低音增强技术，浑厚的低频在旋律中流动，同时保持人声清晰贴耳，营造出极致听感",
+		"shareDesc": "浑厚低频，如水流动",
+		"filename": "010-流动低音.aep",
+		"tag": ["重低音"],
+		"backImage": "tagBassBack.png",
+		"irs": {
+			"4d11b1cd25bd08e131e79b2b1736b71c6f18828b.enc": 131144
+		},
+		"flag": ["show"],
+		"icon": "RecommendIcon10.png"
+	},
+	{
+		"id": 11,
+		"name": "现场环绕",
+		"description": "模拟现场音响效果，精确的声场调整，搭配上高清音质，亲临演唱会现场的体验",
+		"shareDesc": "高清音质，亲临现场",
+		"filename": "011-现场环绕.aep",
+		"tag": ["环绕", "高保真"],
+		"backImage": "tagSurroundBack.png",
+		"irs": {
+			"6f7ed6744ad0f47c6bf73d001b65c1531b47a388.enc": 131116
+		},
+		"flag": ["show"],
+		"icon": "RecommendIcon11.png"
+	},
+	{
+		"id": 1,
+		"name": "差分环绕",
+		"description": "通过差分环绕技术，解决人声中置效应，使人耳在感觉更自然，更符合结构学和外界感知，有身临其境之感",
+		"shareDesc": "经典环绕技术，身临其境之感",
+		"filename": "001-差分环绕.aep",
+		"tag": ["环绕", "耳机"],
+		"backImage": "tagSurroundBack.png",
+		"irs": {
+			"8da782aafdc5174e9b8e838c57e2a31d2db9f6a3.enc": 143636
+		},
+		"flag": ["show"],
+		"icon": "RecommendIcon1.png"
+	},
+	{
+		"id": 2,
+		"name": "3D人声",
+		"description": "先进的频谱分析技术分离人声和伴奏，让人声包围旋转的同时保证背景音的稳定，再通过立体声扩展让伴奏声场更宽广",
+		"shareDesc": "环绕双耳的密语",
+		"filename": "002-3D人声.aep",
+		"tag": ["环绕", "人声"],
+		"backImage": "tagSurroundBack.png",
+		"flag": ["show"],
+		"icon": "RecommendIcon2.png"
+	},
+	{
+		"id": 8,
+		"name": "小编制",
+		"description": "通过先进的脉冲处理技术，配合科学滤波，提供一场小型的音乐会效果",
+		"shareDesc": "来感受定制的小型音乐会吧！",
+		"filename": "008-小编制.aep",
+		"tag": ["旋律"],
+		"backImage": "tagMelodyBack.png",
+		"irs": {
+			"36af30f920f0e3f00232ff24b1b7847b2c006198.enc": 131108
+		},
+		"flag": ["show"],
+		"icon": "RecommendIcon8.png"
+	},
+	{
+		"id": 7,
+		"name": "录音棚环绕",
+		"description": "基于录音棚环境的模拟技术，历经几百小时精心调制，带来极致的混响效果和谐波优化处理",
+		"shareDesc": "模拟录音环境，极致混响体验",
+		"filename": "007-录音棚环绕.aep",
+		"tag": ["环境模拟", "环绕"],
+		"backImage": "tagAmbienceBack.png",
+		"irs": {
+			"2f823376fa7e63ef5a9b70f7443c19793811bb0e.enc": 65624
+		},
+		"flag": ["show"],
+		"icon": "RecommendIcon7.png"
+	},
+	{
+		"id": 50,
+		"name": "KTV房间",
+		"description": "逼真的场景模拟，配合科学滤波，模拟KTV房间的混响，在这里，你就是唱将！！！",
+		"shareDesc": "每首歌曲背后都有一位KTV唱将",
+		"filename": "050-KTV房间.aep",
+		"tag": ["环境模拟"],
+		"backImage": "tagAmbienceBack.png",
+		"flag": ["show"],
+		"icon": "RecommendIcon50.png"
+	},
+	{
+		"id": 51,
+		"name": "浴室",
+		"description": "精准的混响调制，模拟密闭狭小的空间，使声音反射效果达到极佳状态",
+		"shareDesc": "小空间内混响的极致体验",
+		"filename": "051-浴室.aep",
+		"tag": ["环境模拟"],
+		"backImage": "tagAmbienceBack.png",
+		"flag": ["show"],
+		"icon": "RecommendIcon51.png"
+	},
+	{
+		"id": 52,
+		"name": "起居室",
+		"description": "精准空间感调制，模拟宽敞的起居室，扩大扩宽声场，减少驻波干扰，音乐细节更清晰，定位更精准",
+		"shareDesc": "音乐细节更清晰，定位更精准",
+		"filename": "052-起居室.aep",
+		"tag": ["环境模拟"],
+		"backImage": "tagAmbienceBack.png",
+		"flag": ["show"],
+		"icon": "RecommendIcon52.png"
+	},
+	{
+		"id": 53,
+		"name": "音乐厅",
+		"description": "对声场的严苛要求，对混响的精准调制，展现更清晰、更丰满的细节体验",
+		"shareDesc": "为你呈上一场宏大的声学交响",
+		"filename": "053-音乐厅.aep",
+		"tag": ["环境模拟"],
+		"backImage": "tagAmbienceBack.png",
+		"flag": ["show"],
+		"icon": "RecommendIcon53.png"
+	},
+	{
+		"id": 54,
+		"name": "小巷子",
+		"description": "采用科学滤波技术展现紧致的声场，江南雨后的青石板街就是我们向往的生活",
+		"shareDesc": "江南雨后，青石板街",
+		"filename": "054-小巷子.aep",
+		"tag": ["环境模拟"],
+		"backImage": "tagAmbienceBack.png",
+		"flag": ["show"],
+		"icon": "RecommendIcon54.png"
+	},
+	{
+		"id": 55,
+		"name": "停车场",
+		"description": "针对空间混响处理，模拟地下停车场环境",
+		"shareDesc": "模拟地下停车场环境",
+		"filename": "055-停车场.aep",
+		"tag": ["环境模拟"],
+		"backImage": "tagAmbienceBack.png",
+		"flag": ["show"],
+		"icon": "RecommendIcon55.png"
+	},
+	{
+		"id": 56,
+		"name": "厨房",
+		"description": "针对空间混响处理，模拟厨房小环境",
+		"filename": "056-厨房.aep",
+		"tag": ["环境模拟"],
+		"backImage": "tagAmbienceBack.png"
+	},
+	{
+		"id": 57,
+		"name": "健身房",
+		"description": "撸铁，跑步，杠铃，总要配上节奏感十足的音乐！",
+		"shareDesc": "撸铁！卧推！再来一组！",
+		"filename": "057-健身房.aep",
+		"tag": ["环境模拟"],
+		"backImage": "tagAmbienceBack.png",
+		"flag": ["show"],
+		"icon": "RecommendIcon57.png"
+	},
+	{
+		"id": 58,
+		"name": "工作室",
+		"description": "自适应音量调节技术，给你安静的环境，更专注工作",
+		"shareDesc": "安静的环境，更专注工作",
+		"filename": "058-工作室.aep",
+		"tag": ["环境模拟"],
+		"backImage": "tagAmbienceBack.png",
+		"flag": ["show"],
+		"icon": "RecommendIcon58.png"
+	},
+	{
+		"id": 59,
+		"name": "自习室",
+		"description": "自适应音量调节，配合先进的频谱增强技术，安静的环境，温柔清澈，细节一丝不落",
+		"shareDesc": "安静的环境，细节一丝不落",
+		"filename": "059-自习室.aep",
+		"tag": ["环境模拟"],
+		"backImage": "tagAmbienceBack.png",
+		"flag": ["show"],
+		"icon": "RecommendIcon59.png"
+	},
+	{
+		"id": 60,
+		"name": "地铁",
+		"description": "逼真的场景模拟，空灵的环境，略微带一丝嘈杂，这就是我们的上下班生活",
+		"shareDesc": "这就是我们的上下班生活",
+		"filename": "060-地铁.aep",
+		"tag": ["环境模拟"],
+		"backImage": "tagAmbienceBack.png",
+		"flag": ["show"],
+		"icon": "RecommendIcon60.png"
+	},
+	{
+		"id": 61,
+		"name": "图书馆",
+		"description": "自适应音量调节技术，辅以先进的频谱增强，看书学习的不二选择",
+		"shareDesc": "看书学习的不二选择",
+		"filename": "061-图书馆.aep",
+		"tag": ["环境模拟"],
+		"backImage": "tagAmbienceBack.png",
+		"flag": ["show"],
+		"icon": "RecommendIcon61.png"
+	},
+	{
+		"id": 995,
+		"name": "明星音效Lite",
+		"description": "用于SuperSound明星音效(Lite版)，不可删除",
+		"filename": "995-明星音效Lite.aep"
+	},
+	{
+		"id": 997,
+		"name": "明星音效",
+		"description": "用于SuperSound明星音效，不可删除",
+		"filename": "997-明星音效.aep"
+	},
+	{
+		"id": 998,
+		"name": "设备音效",
+		"description": "用于SuperSound车载音效，不可删除",
+		"filename": "998-设备音效.aep"	
+	}]
+}

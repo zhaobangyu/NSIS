@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+<!-- 完成 -->
+  <VerticalLayout >
+         <!-- 上半部分背景 -->
+   	<VerticalLayout width="592" height="282" roundcorner="5,5" bkcolor="#FF262939" bkimage="file='bkimage.png' corner='0,0,0,0'" >
+
+	</VerticalLayout>
+	<VerticalLayout bkcolor="#FFFFFFFF" >   
+		<Label padding="30,30,0,0" font="8" width="160" normaltextcolor="#ff666666" text="已卸载" />
+		<!-- 完成按钮 -->
+		<Button 
+			name="btnUninstalled"
+			font="6"
+			padding="450,40,0,0" 
+			text="完 成"
+			width="94" 
+			height="36"
+			valign="center" 
+			textcolor="#FFffffff"
+			normalimage="form\btn_installation_normal.png" 
+			hotimage="form\btn_installation_hovered.png" 
+			pushedimage="form\btn_installation_pressed.png" 
+			disabledimage="form\btn_installation_disable.png"
+			borderround="2,2,2,2"
+			bkcolor="#FF20d5b9"/>     
+	</VerticalLayout>
+ </VerticalLayout>
+</Windows>

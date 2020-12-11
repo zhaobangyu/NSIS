@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+<!-- 完成 -->
+ <VerticalLayout >
+   <VerticalLayout width="552" height="333" roundcorner="5,5" bkimage="file='bkimage\finish.bmp' corner='0,0,0,0'" >
+		<Button 
+			font="8" 
+			name="btnRun" 
+			padding="191,251,0,0" 
+			width="187" 
+			height="44" 
+			textcolor="0xffffffff" 
+			disabledtextcolor="0xffffffff" 
+			normalimage="file='button\btn_complete.bmp' source='0,0,187,42' dest='0,0,187,42'" 
+			hotimage="file='button\btn_complete.bmp' source='0,42,187,84' dest='0,0,187,42'" 
+			pushedimage="file='button\btn_complete.bmp' source='0,84,187,126' dest='0,0,187,42'" 
+			disabledimage="file='button\btn_complete.bmp' source='0,126,187,168' dest='0,0,187,42'" 
+			margin="0,10,0,0" 
+			borderround="2,2,2,2"
+			text="" />
+	</VerticalLayout>
+ </VerticalLayout>
+</Windows>

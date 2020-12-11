@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+   <VerticalLayout >
+    <VerticalLayout width="552" height="333" roundcorner="5,5" bkimage="file='bkimage\uninstall_start.bmp' corner='0,0,0,0'" >
+				<Control height="282"/>
+				<HorizontalLayout padding="0,0,0,0" height="50" >
+		  		<!-- 保留我的数据选项 -->
+					<CheckBox 
+						name="chkbox_userdata" 
+						padding="21,13,0,0" 
+						font="7" 
+						text="" 
+						textcolor="#FF333333" 
+						selected="true" 
+						valign="top" 
+						align="left" 
+						textpadding="22,0,0,0" 
+						normalimage="file='public/CheckBox/check_savedata.bmp' source='0,0,128,22' dest='0,0,128,22'" 
+						normalhotimage="file='public/CheckBox/check_savedata.bmp' source='0,22,128,44' dest='0,0,128,22'" 
+						selectedimage="file='public/CheckBox/check_savedata_ok.bmp' source='0,44,128,66' dest='0,0,128,22'" 
+						selectedhotimage="file='public/CheckBox/check_savedata_ok.bmp' source='0,66,128,88' dest='0,0,128,22'"/>
+
+					<!-- 确定按钮 -->
+					<Button   
+						name="btnUnInstall"
+						font="5"
+						text=""
+						width="90" 
+						height="35"
+						valign="center" 
+						borderround="2,2,2,2"
+						normalimage="file='button\uninstall_btn_ok.bmp' source='0,0,90,35' dest='0,0,90,35'" 
+						hotimage="file='button\uninstall_btn_ok.bmp' source='0,35,90,70' dest='0,0,90,35'" 
+						pushedimage="file='button\uninstall_btn_ok.bmp' source='0,70,90,105' dest='0,0,90,35'"/>   
+		  		<Control width="11" />
+					<!-- 取消按钮 -->
+					<Button 
+						name="btnClose"
+						font="5"
+						text=""
+						width="87" 
+						height="35"
+						valign="center" 
+						textcolor="#FFffffff"
+						normalimage="file='button\uninstall_btn_chancel.bmp' source='0,0,87,35' dest='0,0,87,35'" 
+						hotimage="file='button\uninstall_btn_chancel.bmp' source='0,35,87,70' dest='0,0,87,35'" 
+						pushedimage="file='button\uninstall_btn_chancel.bmp' source='0,70,87,105' dest='0,0,87,35'"
+						borderround="2,2,2,2"
+						bkcolor="#FF20d5b9"/>   
+		 		</HorizontalLayout>
+		</VerticalLayout>
+	<VerticalLayout heigh="160" bkcolor="#FFFFFFFF" >   
+		<Label font="8" width="200" height="25" padding="30,30,0,0" textcolor="#ff333333" text="确定要卸载QQ音乐？" /> 
+		<HorizontalLayout padding="30,45,0,0" height="40" >
+		  
+		  <Control />     
+		  
+		
+		  <Control width="20" />
+		 </HorizontalLayout>
+		 <Control height="10" />
+	</VerticalLayout>
+ </VerticalLayout>
+</Windows>

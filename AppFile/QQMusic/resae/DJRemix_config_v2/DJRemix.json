@@ -1,0 +1,72 @@
+{
+	"version": 10014,
+	"template": [{
+		"id": 11,
+		"name": "Clap",
+		"showName": "拍手",
+		"debug": 0,
+		"common": 0,
+		"link": "https://dldir1.qq.com/music/clntupate/ss2/DJRemix/10013/Clap.zip",
+		"size": 431912,
+		"md5": "31431990337e2a7382b8c51959898794"
+	},
+	{
+		"id": 12,
+		"name": "Twister",
+		"showName": "扭腰",
+		"debug": 0,
+		"common": 0,
+		"link": "https://dldir1.qq.com/music/clntupate/ss2/DJRemix/10011/Twister.zip",
+		"size": 763493,
+		"md5": "e87e5318d1a062e523a13a5a9652ecf6"
+	},
+	{
+		"id": 13,
+		"name": "JumpUp",
+		"showName": "蹦跳",
+		"debug": 0,
+		"common": 0,
+		"link": "https://dldir1.qq.com/music/clntupate/ss2/DJRemix/10011/JumpUp.zip",
+		"size": 1521475,
+		"md5": "09ce1675e9681791d0406c1a73c23aa7"
+	},
+	{
+		"id": 14,
+		"name": "Nod",
+		"showName": "摇头",
+		"debug": 0,
+		"common": 0,
+		"link": "https://dldir1.qq.com/music/clntupate/ss2/DJRemix/10011/Nod.zip",
+		"size": 623366,
+		"md5": "25aea125a88b381420f04846fb8506c2"
+	},
+	{
+		"id": 15,
+		"name": "Common",
+		"debug": 0,
+		"common": 1,
+		"link": "https://dldir1.qq.com/music/clntupate/ss2/DJRemix/10015/Common.zip",
+		"size": 11856214,
+		"md5": "e7cf4331e621b791f66e40a632fa8ada"
+	},
+	{
+		"id": 9,
+		"name": "Twister2",
+		"showName": "扭腰",
+		"debug": 0,
+		"common": 0,
+		"link": "https://dldir1.qq.com/music/clntupate/ss2/DJRemix/10011/Twister2.zip",
+		"size": 675314,
+		"md5": "a926a9f12ed31dbbc03dcf505011c0c1"
+	},
+	{
+		"id": 10,
+		"name": "Nod2",
+		"showName": "摇头",
+		"debug": 0,
+		"common": 0,
+		"link": "https://dldir1.qq.com/music/clntupate/ss2/DJRemix/10011/Nod2.zip",
+		"size": 585405,
+		"md5": "6906fddce2f6dfe0121acc2f8e21b16a"
+	}]
+}

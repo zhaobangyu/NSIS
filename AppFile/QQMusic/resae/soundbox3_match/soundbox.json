@@ -1,0 +1,135 @@
+{
+	"version": 30001,
+	"data": [{
+		"vendorIcon": "https://dldir1.qq.com/music/clntupate/ss2/headphoneIco/VendorId507.png",
+		"vendorId": 507,
+		"vendorName": "JBL",
+		"vendorNameEx": "杰宝",
+		"models": [{
+			"modelId": 5016,
+			"modelName": "Go",
+			"WooferSize": 1.5,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer1_5.aep"
+		},
+		{
+			"modelId": 5017,
+			"modelName": "Go Smart 2",
+			"WooferSize": 1.5,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer1_5.aep"
+		}]
+	},
+	{
+		"vendorIcon": "https://dldir1.qq.com/music/clntupate/ss2/headphoneIco/VendorId535.png",
+		"vendorId": 535,
+		"vendorName": "漫步者",
+		"vendorNameEx": "EDIFIER",
+		"models": [{
+			"modelId": 5001,
+			"modelName": "R101V",
+			"WooferSize": 4,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer4.aep"
+		},
+		{
+			"modelId": 5002,
+			"modelName": "R102V",
+			"WooferSize": 4,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer4.aep"
+		},
+		{
+			"modelId": 5003,
+			"modelName": "R103V",
+			"WooferSize": 4,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer4.aep"
+		},
+		{
+			"modelId": 5004,
+			"modelName": "R88",
+			"WooferSize": 4,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer4.aep"
+		},
+		{
+			"modelId": 5005,
+			"modelName": "R10U",
+			"WooferSize": 2,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer2.aep"
+		},
+		{
+			"modelId": 5006,
+			"modelName": "R12U",
+			"WooferSize": 2,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer2.aep"
+		},
+		{
+			"modelId": 5007,
+			"modelName": "R18T",
+			"WooferSize": 2,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer2.aep"
+		},
+		{
+			"modelId": 5008,
+			"modelName": "R26T",
+			"WooferSize": 2,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer2.aep"
+		},
+		{
+			"modelId": 5018,
+			"modelName": "S201",
+			"WooferSize": 8,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer6.aep"
+		}]
+	},
+	{
+		"vendorIcon": "https://dldir1.qq.com/music/clntupate/ss2/headphoneIco/VendorId545.png",
+		"vendorId": 545,
+		"vendorName": "小米",
+		"vendorNameEx": "",
+		"models": [{
+			"modelId": 5013,
+			"modelName": "小爱音箱 随身版",
+			"WooferSize": 1.5,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer1_5.aep"
+		},
+		{
+			"modelId": 5014,
+			"modelName": "小爱音箱 mini",
+			"WooferSize": 1.5,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer1_5.aep"
+		},
+		{
+			"modelId": 5015,
+			"modelName": "小爱音箱 Play",
+			"WooferSize": 2,
+			"AEPUrl": "http://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer2.aep"
+		}]
+	},
+	{
+		"vendorIcon": "https://dldir1.qq.com/music/clntupate/ss2/headphoneIco/VendorId591.png",
+		"vendorId": 591,
+		"vendorName": "哈曼卡顿",
+		"vendorNameEx": "Harman/Kardon",
+		"models": [{
+			"modelId": 5009,
+			"modelName": "SoundSticks Ⅲ",
+			"WooferSize": 6,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer6.aep"
+		},
+		{
+			"modelId": 5010,
+			"modelName": "Allure Portable",
+			"WooferSize": 1.75,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer2.aep"
+		},
+		{
+			"modelId": 5011,
+			"modelName": "Allure 音乐琥珀",
+			"WooferSize": 3.5,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer3.aep"
+		},
+		{
+			"modelId": 5012,
+			"modelName": "AURA Studio 2",
+			"WooferSize": 4.5,
+			"AEPUrl": "https://dldir1.qq.com/music/clntupate/ss2/DeviceAdapterAEP/V3_Woofer4.aep"
+		}]
+	}]
+}

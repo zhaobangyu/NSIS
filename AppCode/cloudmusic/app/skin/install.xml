@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="552,333" sizebox="0,0,0,0" caption="0,0,0,442" showshadow="true" shadowimage="bk_shadow.png" shadowsize="14" shadowcorner="14,14,14,14">
+  <Font id="0" name="微软雅黑" size="12" bold="false" default="true" />
+  <Font id="1" name="微软雅黑" size="12" bold="true" />
+  <Font id="2" name="微软雅黑" size="24" bold="false" />
+  <Font id="3" name="微软雅黑" size="16" bold="false" />
+  <Font id="4" name="宋体" size="32" bold="false" />
+  <Font id="5" name="微软雅黑" size="14" bold="false" />
+  <Font id="6" name="微软雅黑" size="14" bold="true" />
+  <Font id="7" name="微软雅黑" size="13" bold="false" />
+  <Font id="8" name="微软雅黑" size="18" bold="false" />
+<Include source="default.xml" />
+  <VerticalLayout >  	
+	  <TabLayout name="wizardTab" selectedid="0">
+	  	<Include source="configpage.xml" />
+	    <Include source="installingpage.xml" />		
+	  	<Include source="finishpage.xml" />
+	  	<Include source="uninstallpage.xml" />
+		  <Include source="uninstallingpage.xml" />		
+	  	<Include source="uninstallfinishpage.xml" />
+    </TabLayout>
+	<HorizontalLayout float="true" inset="0,0,0,0" pos="525,15,539,28" background="#FFfa0225">
+		<!--关闭按钮-->
+		<Button 
+          name="btnClose" 
+          width="14" 
+          height="13" 
+          normalimage="file='close.png'" 
+          hotimage="file='close.png'" 
+          pushedimage="file='close.png'"/>
+  </HorizontalLayout> 
+  </VerticalLayout>
+</Window>

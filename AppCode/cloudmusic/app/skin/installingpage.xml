@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+<!-- 进度 -->
+  <VerticalLayout >
+    <VerticalLayout width="552" height="333" roundcorner="5,5" bkimage="file='bkimage\step1.bmp' corner='0,0,0,0'" >
+		<!-- 进度条 -->
+		<Slider 
+			name="slrProgress"
+			padding="0,267,0,0" 
+			height="6" 
+			width="552"
+			mouse="false" 
+			foreimage="form\loading2.bmp"
+			bkimage="form\loading1.bmp" 
+			thumbsize="0,0" 
+			value="50"/>
+
+		<!-- 文字描述 -->
+		<HorizontalLayout height="12" padding="21,22,0,0">
+			<!-- 提示 -->
+			<Label 
+				font="0" 
+				height="12"
+				name="progress_tip" 
+				width="400" 
+				textcolor="#ff555555" 
+				text="正在安装..."
+				textcolor="#ff555555" />
+			<Control />
+			<!-- 进度 -->
+			<Label 
+				font="0" 
+				name="progress_pos"
+				width="60" 
+				text="10%"
+				visible="false"
+				textalign="right" 
+				textcolor="#ff555555" />
+		</HorizontalLayout>
+	</VerticalLayout>
+	</VerticalLayout >
+</Windows>

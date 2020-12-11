@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+<!-- 完成 -->
+ <VerticalLayout >
+   <VerticalLayout width="592" height="282" roundcorner="5,5" bkcolor="#FF262939">
+		<!-- logo -->
+		<VerticalLayout 
+			padding="0,0,0,0" 
+			bkimage="file='bkimage\bk3.png' corner='0,0,0,0'" 
+			maxwidth="592" 
+			maxheight="282"/>
+	</VerticalLayout>
+	<VerticalLayout height="160" bkcolor="#FFFFFFFF" >	
+		<Button 
+			font="8" 
+			name="btnRun" 
+			padding="196,41,0,0" 
+			width="200" 
+			height="48" 
+			textcolor="0xffffffff" 
+			disabledtextcolor="0xffffffff" 
+			normalimage="button\ljty_normal.png" 
+			hotimage="button\ljty_hovered.png" 
+			pushedimage="button\ljty_pressed.png" 
+			disabledimage="button\ljty_disable.png"
+			margin="0,10,0,0" 
+			borderround="2,2,2,2"
+			text="" />
+	</VerticalLayout>
+ </VerticalLayout>
+</Windows>

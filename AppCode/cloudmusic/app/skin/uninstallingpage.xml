@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+	<VerticalLayout width="552" height="333" roundcorner="5,5" bkimage="file='bkimage\uninstall_ing.bmp' corner='0,0,0,0'" >
+		<!-- 进度条 -->
+		<Slider 
+			name="slrUnInstProgress" 
+			padding="0,267,0,0" 
+			height="6" 
+			width="552"
+			mouse="false" 
+			foreimage="form\loading2.bmp"
+			bkimage="form\loading1.bmp" 
+			thumbsize="0,0" 
+			value="50"/>
+
+		<!-- 文字描述 -->
+		<HorizontalLayout height="12" padding="25,12,0,0">
+			<!-- 提示 -->
+			<Label 
+				font="0" 
+				name="un_progress_tip" 
+				width="400" 
+				textcolor="#ff555555" 
+				text="正在卸载..." />
+			<Control />
+			<!-- 进度 -->
+			<Label 
+				font="0" 
+				name="un_progress_pos" 
+				width="60" 
+				textalign="right"
+				visible="false"
+				text=""
+				textcolor="#ff555555" />
+		</HorizontalLayout>
+	</VerticalLayout>		
+</Windows>

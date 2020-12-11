@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+<!-- 完成 -->
+ <VerticalLayout >
+       <!-- 上半部分背景 -->
+   	<VerticalLayout width="592" height="282" roundcorner="5,5" bkcolor="#FF262939" bkimage="file='bkimage.png' corner='0,0,0,0'" >
+
+	</VerticalLayout>
+	<VerticalLayout height="160" bkcolor="#FFFFFFFF" >	
+		<Button 
+			font="8" 
+			name="btnRun" 
+			padding="196,41,0,0" 
+			width="200" 
+			height="48" 
+			bkcolor="#FF119e50"
+			textcolor="0xffffffff" 
+			disabledtextcolor="0xffffffff" 
+			normalimage="form\btn_installation_normal.png" 
+			hotimage="form\btn_installation_hovered.png" 
+			pushedimage="form\btn_installation_pressed.png" 
+			disabledimage="form\btn_installation_disable.png"
+			margin="0,10,0,0" 
+			borderround="2,2,2,2"
+			text="立即体验" />
+	</VerticalLayout>
+ </VerticalLayout>
+</Windows>

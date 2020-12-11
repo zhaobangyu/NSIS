@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window 
+size="402,191" 
+sizebox="0,0,0,0" 
+caption="0,0,0,402" 
+richeditcorner="20,20,20,20">
+  <Font id="0" name="微软雅黑" size="13" bold="false" default="true" shared="true" />
+	<Font id="1" name="微软雅黑" size="14" bold="true" shared="true" />
+	<Font id="2" name="微软雅黑" size="16" bold="true" shared="true" />
+	<Font id="3" name="微软雅黑" size="18" bold="true" shared="true" />
+	<Font id="4" name="微软雅黑" size="50" bold="true" shared="true" />
+  <VerticalLayout width="402" height="191" inset="1,1,1,1" bordersize="1" bkcolor="#FF262939" bkimage="file='msgBox\msg.bmp' corner='0,0,0,0'" >
+  	<!-- 窗口顶部 -->
+		<VerticalLayout height="35">
+      <HorizontalLayout>
+				<!-- 标题 -->
+				<Label
+					name="lblTitle"
+					width="50"
+					textpadding="10,0,0,0" 
+					text="提示" 
+					textcolor="#FF9AABC1" />
+				<!-- 关闭按钮 -->
+				<Button 
+          name="btnClose" 
+					padding="374,8,0,0"
+          width="25" 
+          height="20" 
+          normalimage="file='button\btn_close.bmp' source='0,0,25,20' dest='0,0,25,20'" 
+          hotimage="file='button\btn_close.bmp' source='0,20,25,40' dest='0,0,25,20'" 
+          pushedimage="file='button\btn_close.bmp' source='0,40,25,60' dest='0,0,25,20'"/>
+      </HorizontalLayout>  
+  	</VerticalLayout>
+
+		<!-- 提示 -->
+  	<HorizontalLayout height="100">
+			<Container width="20"/>
+			<Text
+					name="lblMsg"
+					font="0"
+					padding="0,30,0,0"
+					height="180"
+					width="260"
+					align="center"
+					text="我们无法安全的结束正在运行的 ${EXE_NAME} 应用程序,请手动退出应用程序,再尝试安装!"
+					textcolor="#FF9AABC1"/>
+  	</HorizontalLayout>
+
+		<Control height="5"/>
+		<!-- 按钮区域 -->
+    <VerticalLayout height="40">
+			<HorizontalLayout>
+				<!-- 确定按钮 -->
+				<Button 
+					name="btnOK"
+					padding="102,0,0,0"
+					width="90" 
+					height="35"
+					normalimage="file='button\btn_ok.bmp' source='0,0,90,35' dest='0,0,90,35'" 
+					hotimage="file='button\btn_ok.bmp' source='0,35,90,70' dest='0,0,90,35'" 
+					pushedimage="file='button\btn_ok.bmp' source='0,70,90,105' dest='0,0,90,35'"/>
+				<Container width="21"/>
+				<!-- 取消按钮 -->
+				<Button 
+					name="btnCancel" 
+					padding="0,0,0,0"
+					width="87" 
+					height="35"
+					normalimage="file='button\btn_cancel.bmp' source='0,0,87,35' dest='0,0,87,35'" 
+					hotimage="file='button\btn_cancel.bmp' source='0,35,87,70' dest='0,0,87,35'" 
+					pushedimage="file='button\btn_cancel.bmp' source='0,70,87,105' dest='0,0,87,35'"/>
+			</HorizontalLayout>
+    </VerticalLayout>
+  </VerticalLayout>
+</Window>

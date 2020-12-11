@@ -1,0 +1,97 @@
+[Version]
+Signature="$Windows NT$"
+Class=MEDIA
+Provider=%MSFT%
+ClassGUID={4d36e96c-e325-11ce-bfc1-08002be10318}
+DriverVer=05/12/2020,16.16.10.961
+CatalogFile=QMVADx64_ev.cat
+
+[SourceDisksNames]
+1="QMVAD Driver","",1
+
+[SourceDisksFiles]
+QMVadx64_ev.sys=1
+
+[Manufacturer]
+%MfgName%=QMVAD,NTx86,NTAMD64
+
+[QMVAD.NTAMD64]
+%QMVAD_VirMic.DeviceDesc%=QMVAD_VirMic,QMVADMic
+
+[QMVAD.NTx86]
+%QMVAD_VirMic.DeviceDesc%=QMVAD_VirMic,QMVADMic
+
+[DestinationDirs]
+QMVAD_VirMic.CopyList=10,system32\drivers
+
+[QMVAD_VirMic.CopyList]
+QMVadx64_ev.sys
+
+[QMVAD_VirMic.AddReg]
+HKR,,AssociatedFilters,,"wdmaud,swmidi,redbook"
+HKR,,Driver,,QMVadx64_ev.sys
+HKR,Drivers,SubClasses,,"wave,midi,mixer"
+HKR,Drivers\wave\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\midi\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\mixer\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\wave\wdmaud.drv,Description,,%QMVAD_VirMic.DeviceDesc%
+HKR,Drivers\midi\wdmaud.drv,Description,,%QMVAD_MIDI%
+HKR,Drivers\mixer\wdmaud.drv,Description,,%QMVAD_VirMic.DeviceDesc%
+
+
+[QMVAD.I.Wave]
+AddReg=QMVAD.I.Wave.AddReg
+
+[QMVAD.I.Wave.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%QMVAD.Wave.szPname%
+
+[QMVAD.I.Topo]
+AddReg=QMVAD.I.Topo.AddReg
+
+[QMVAD.I.Topo.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%QMVAD.Topo.szPname%
+
+
+[QMVAD_VirMic.NT]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration, WDMAUDIO.Registration
+CopyFiles=QMVAD_VirMic.CopyList
+AddReg=QMVAD_VirMic.AddReg
+
+[QMVAD_VirMic.NT.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,QMVAD.I.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,QMVAD.I.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,QMVAD.I.Topo
+
+[QMVAD_VirMic.NT.Services]
+AddService=QMVAD_VirtualMic,0x00000002,QMVAD_VirMic_Service_Install
+
+[QMVAD_VirMic_Service_Install]
+DisplayName=%QMVAD_VirMic.SvcDesc%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%10%\system32\drivers\QMVadx64_ev.sys
+
+[Strings]
+MSFT="Tencent"
+MfgName="Tencent QQMusic"
+QMVAD_VirMic.DeviceDesc="Tencent QQMusic Virtual Audio Device"
+QMVAD.Wave.szPname="QMVAD Wave"
+QMVAD.Topo.szPname="QMVAD Topology"
+QMVAD_MIDI="QMVAD -> WDM Midi Device"
+Proxy.CLSID="{17CCA71B-ECD7-11D0-B908-00A0C9223196}"
+KSCATEGORY_AUDIO="{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSCATEGORY_RENDER="{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_CAPTURE="{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+KSNAME_Wave="Wave"
+KSNAME_Topology="Topology"
+QMVAD_VirMic.SvcDesc="Tencent QQMusic Virtual Audio Device"
+MediaCategories="SYSTEM\CurrentControlSet\Control\MediaCategories"
+Simple.NameGuid="{946A7B1A-EBBC-422a-A81F-F07C8D40D3B4}"
+Simple.Name="QMVAD (Simple)"
+
+
+

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+   <VerticalLayout >
+	<!-- 上半部分背景 -->
+	<VerticalLayout width="592" height="282" roundcorner="5,5" bkcolor="#FF262939" bkimage="file='bkimage.png' corner='0,0,0,0'" >
+
+	</VerticalLayout>
+	<VerticalLayout heigh="160" bkcolor="#FFFFFFFF" >   
+		<Label font="8" width="200" height="25" padding="30,30,0,0" textcolor="#ff333333" text="确定要卸载？" /> 
+		<HorizontalLayout padding="30,45,0,0" height="40" >
+		  <!-- 保留我的数据选项 -->
+		  <CheckBox 
+			name="chkbox_userdata" 
+				padding="0,6,0,0" 
+				font="7" 
+				text="保留我的数据" 
+				textcolor="#FF333333" 
+				selected="true" 
+				valign="top" 
+				align="left" 
+				textpadding="22,0,0,0" 
+				normalimage="file='public/CheckBox/check_no.png' dest='0,2,16,18'" 
+				normalhotimage="file='public/CheckBox/check_no.png' dest='0,2,16,18'" 
+				selectedimage="file='public/CheckBox/check_yes.png' dest='0,2,16,18'" 
+				selectedhotimage="file='public/CheckBox/check_yes.png' dest='0,2,16,18'"/>
+		  <Control />     
+		  
+		<!-- 确定按钮 -->
+		<Button   
+			name="btnUnInstall"
+			font="5"
+			text="确 定"
+			width="94" 
+			height="36"
+			valign="center" 
+			borderround="2,2,2,2"
+			bkcolor="#FFebebeb"/>   
+		  <Control width="10" />
+		  
+		<!-- 取消按钮 -->
+		<Button 
+			name="btnClose"
+			font="5"
+			text="取 消"
+			width="94" 
+			height="36"
+			valign="center" 
+			textcolor="#FFffffff"
+			normalimage="form\btn_installation_normal.png" 
+			hotimage="form\btn_installation_hovered.png" 
+			pushedimage="form\btn_installation_pressed.png" 
+			disabledimage="form\btn_installation_disable.png"
+			borderround="2,2,2,2"
+			bkcolor="#FF20d5b9"/>   
+		  <Control width="20" />
+		 </HorizontalLayout>
+		 <Control height="10" />
+	</VerticalLayout>
+ </VerticalLayout>
+</Windows>
