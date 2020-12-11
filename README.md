@@ -8,9 +8,12 @@
 
 > ScreenToGif这个示例安装包，在安装前做了net.framework版本的验证，net.framework版本低于4.8则下载环境进行安装
 
+> 项目中的关键参数使用了宏定义，你可以查看 位于 AppCode\项目\app\setup.nsi 的文件
+
+
     提示： net.framework 4以后的版本安装需要先安装微软证书，再安装依赖包才能安装成功
 
-### 由于github文件限制大小的原因，安装包没有上传，可执行目录中的脚本进行生成。###
+### 由于github文件限制大小的原因，安装包没有上传，可执行目录中的脚本进行生成。
 #### 三个示例包对应的脚本分别为 ####
 	
 	QQ音乐：build-qqmusic-nozip.bat
@@ -22,7 +25,7 @@
 
 当然如果你不想修改任何内容，可以将该项目下载到D:\\github\\NSIS\\NsisPackage目录下。
 
-## 你可以在下面看到三个安装包安装过程的gif动画录制。##
+## 你可以在下面看到三个安装包安装过程的gif动画录制 ##
 
 QQ音乐安装过程
 ![image](https://github.com/zhaobangyu/NSIS/blob/NsisPackage/qqmusic-install.gif)  
