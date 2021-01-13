@@ -1,6 +1,6 @@
-@call makensiscode.bat
+@rem @call makensiscode.bat
 
-@call makeskinzip.bat nim
+@rem @call makeskinzip.bat nim
 
 ".\NSIS\makensis.exe" /DINSTALL_WITH_NO_NSIS7Z=1 ".\AppCode\nim\app\nim_setup.nsi"
 

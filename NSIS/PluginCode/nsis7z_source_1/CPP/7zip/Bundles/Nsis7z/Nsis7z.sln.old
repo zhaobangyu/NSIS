@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nsis7z", "Nsis7z.vcproj", "{1CFE9B21-271A-44A1-8A1A-589A6808ED22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		DebugU|Win32 = DebugU|Win32
+		Release|Win32 = Release|Win32
+		ReleaseU|Win32 = ReleaseU|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CFE9B21-271A-44A1-8A1A-589A6808ED22}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1CFE9B21-271A-44A1-8A1A-589A6808ED22}.Debug|Win32.Build.0 = Debug|Win32
+		{1CFE9B21-271A-44A1-8A1A-589A6808ED22}.DebugU|Win32.ActiveCfg = DebugU|Win32
+		{1CFE9B21-271A-44A1-8A1A-589A6808ED22}.Release|Win32.ActiveCfg = Release|Win32
+		{1CFE9B21-271A-44A1-8A1A-589A6808ED22}.Release|Win32.Build.0 = Release|Win32
+		{1CFE9B21-271A-44A1-8A1A-589A6808ED22}.ReleaseU|Win32.ActiveCfg = ReleaseU|Win32
+		{1CFE9B21-271A-44A1-8A1A-589A6808ED22}.ReleaseU|Win32.Build.0 = ReleaseU|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,6 +1,6 @@
-@call makeapp.bat
+@rem @call makeapp.bat
 
-@call makeskinzip.bat nim
+@rem @call makeskinzip.bat nim
 
 ".\NSIS\makensis.exe" ".\AppCode\nim\app\nim_setup.nsi"
 
